@@ -98,6 +98,13 @@ public class StudentController {
 		
 		
 	}
+	public List<Student> studentSorting1(){
+		List<Student> studentSorting = studentServiceI.studentSorting();
+		
+		return studentSorting;
+		
+		
+	}
 	
 
 }
