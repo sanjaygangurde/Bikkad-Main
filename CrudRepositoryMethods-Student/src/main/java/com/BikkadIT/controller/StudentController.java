@@ -98,6 +98,20 @@ public class StudentController {
 		
 		
 	}
+	public List<Student> studentSorting3(){
+		List<Student> studentSorting = studentServiceI.studentSorting();
+		
+		return studentSorting;
+		
+		
+	}
+	public List<Student> studentSorting2(){
+		List<Student> studentSorting = studentServiceI.studentSorting();
+		
+		return studentSorting;
+		
+		
+	}
 	public List<Student> studentSorting1(){
 		List<Student> studentSorting = studentServiceI.studentSorting();
 		
